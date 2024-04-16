@@ -715,14 +715,15 @@ form button i {
   justify-content: center;
   align-items: center;
 }
-.footer-text .logo span,
-li a,
-p {
+.footer-text .logo span {
   color: white;
+  font-size: 20px;
 }
-.footer-text .logo,
-li,
-li a,
-p {
+.link-li a {
+  color: white;
+  font-size: 15px;
+}
+.copy p {
+  color: white;
   font-size: 15px;
 }
