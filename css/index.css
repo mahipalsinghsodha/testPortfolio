@@ -719,11 +719,12 @@ form button i {
   color: white;
   font-size: 20px;
 }
-.link-li a {
+
+.footer-text > .list-link a {
   color: white;
   font-size: 15px;
 }
-.copy p {
+.footer-text > .copy1 p {
   color: white;
   font-size: 15px;
 }
