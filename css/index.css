@@ -597,6 +597,7 @@ h1 {
 .text-testi {
   margin-top: 40px;
   width: 600px;
+  margin-bottom: 40px;
 }
 .text-testi p {
   font-size: 15px;
@@ -604,4 +605,124 @@ h1 {
 }
 .text-testi h3 {
   margin: 10px;
+}
+
+/* Normal section  */
+.narmal-sec {
+  background-image: linear-gradient(rgb(252, 243, 233), rgb(251, 251, 251));
+}
+.normal-containner {
+  border-radius: 10px;
+}
+.normal-profile {
+  background-color: transparent;
+}
+.normal-address h2 {
+  margin-top: 20px;
+}
+.normal-address p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.address-box {
+  display: flex;
+  align-items: center;
+  border: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.add-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #dfdfdf;
+  border-radius: 8px;
+  margin: 10px;
+}
+#add-1 {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.address-box i {
+  font-size: 28px;
+  padding: 10px;
+  color: #a53dff;
+}
+#add-1 #add-box1 {
+  background-color: #a53dff;
+}
+#add-box1 i {
+  color: white;
+}
+.address-box .inner-address {
+  display: flex;
+  flex-direction: column;
+}
+.normal-icon a {
+  margin: 10px;
+  font-size: 28px;
+  padding: 10px;
+  background-color: white;
+  color: #a53dff;
+  border-radius: 10px;
+}
+.normal-icon .first {
+  background-color: #a53dff;
+  padding: 15px;
+  color: white;
+}
+input {
+  font-size: 20px;
+  width: 90%;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #a53dff;
+}
+.inpu-text {
+  width: 40%;
+  margin-right: 10px;
+}
+.inpu-text {
+  width: 40%;
+}
+#subject {
+  width: 45%;
+}
+form button {
+  width: auto;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+form button i {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+/* footer section css 
+ */
+.footer {
+  background-color: #132238;
+}
+.footer-inner {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text .logo span,
+li a,
+p {
+  color: white;
+}
+.footer-text .logo,
+li,
+li a,
+p {
+  font-size: 15px;
 }
