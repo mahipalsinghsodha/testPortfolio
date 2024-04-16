@@ -907,6 +907,15 @@ form button i {
   .client-logos {
     grid-template-columns: auto auto;
   }
+  .inner-box .box {
+    width: auto;
+  }
+  .box .box-title {
+    font-size: 12px;
+  }
+  .box .sub-title {
+    font-size: 8px;
+  }
 }
 
 @media only screen and (max-width: 486px) {
