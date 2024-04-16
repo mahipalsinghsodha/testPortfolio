@@ -902,10 +902,8 @@ form button i {
   .blog-inner .heading {
     width: auto;
   }
-}
-@media only screen and (max-width: 550px) {
-  .client-logos {
-    grid-template-columns: auto auto;
+  .inner-box {
+    margin: 10px 5px;
   }
   .inner-box .box {
     width: auto;
@@ -915,6 +913,11 @@ form button i {
   }
   .box .sub-title {
     font-size: 8px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .client-logos {
+    grid-template-columns: auto auto;
   }
 }
 
