@@ -98,7 +98,7 @@ button a {
 .left-sec {
   width: 50%;
   margin-right: 10px;
-  margin: 40px 10px;
+  margin: 10px;
 }
 .text-sec h1 {
   font-size: 30px;
@@ -256,6 +256,7 @@ button a {
   width: auto;
   margin: 5px;
 }
+
 .btn-dow {
   background: transparent;
   border: 2px solid #a53dff;
@@ -628,6 +629,9 @@ h1 {
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.normal-head1 {
+  display: none;
+}
 .normal-profile {
   display: flex;
   flex-direction: column;
@@ -830,5 +834,56 @@ form button i {
   }
   .blog-card {
     grid-template-columns: auto auto;
+  }
+  .blog-card .b-card {
+    margin: 10px;
+  }
+  .text-testi {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 722px) {
+  .inner-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .home-inner {
+    flex-direction: column-reverse;
+  }
+  .inner-box {
+    margin: 20px;
+  }
+  .inner-box .box {
+    background-color: #ddc2f5;
+  }
+  .about-inner {
+    padding: 10px;
+    width: 70%;
+  }
+  .about-right {
+    margin-top: 20px;
+  }
+
+  .textp {
+    display: none;
+  }
+  .profile-sec {
+    width: 90%;
+  }
+  .profile-sec {
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+  }
+  .normal-containner {
+    flex-direction: column-reverse;
+    width: 75%;
+  }
+  .normal-head {
+    display: none;
+  }
+  .normal-head1 {
+    display: inline;
   }
 }
