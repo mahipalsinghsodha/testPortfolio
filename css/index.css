@@ -860,7 +860,12 @@ form button i {
     flex-direction: column-reverse;
   }
   .inner-box {
+    justify-content: center;
+    align-items: center;
     margin: 20px;
+  }
+  .normal-address {
+    width: auto;
   }
   .inner-box .box {
     background-color: #ddc2f5;
