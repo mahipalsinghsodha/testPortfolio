@@ -89,6 +89,7 @@ button a {
 
 .home-inner {
   display: flex;
+
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
@@ -358,7 +359,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 40px;
 }
 .title-port {
   display: flex;
@@ -473,9 +473,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px;
 }
 .text-expe {
+  width: 90%;
+  padding: 10px;
 }
 .text-expe h1 {
   font-size: 25px;
@@ -731,11 +732,17 @@ form button i {
   background-color: #132238;
 }
 .footer-inner {
-  height: 400px;
+  height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer-text {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
 .footer-text .logo span {
   color: white;
@@ -793,8 +800,35 @@ form button i {
     height: auto;
     margin: 0;
   }
+  .client-logos {
+    grid-template-columns: auto auto auto;
+  }
 }
 
-/* @media only screen and (max-width: 980px) {
-  
-} */
+@media only screen and (max-width: 934px) {
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-text .logo {
+    margin: 20px;
+  }
+  .footer-text .copy1 {
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 762px) {
+  .profile-sec {
+    width: 300px;
+    height: 400px;
+  }
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  .card-container {
+    grid-template-columns: auto auto;
+  }
+  .blog-card {
+    grid-template-columns: auto auto;
+  }
+}
