@@ -840,6 +840,9 @@ form button i {
   .text-testi {
     width: auto;
   }
+  .inner-box {
+    margin: 10px 5px;
+  }
 }
 
 @media only screen and (max-width: 722px) {
@@ -901,9 +904,6 @@ form button i {
   }
   .blog-inner .heading {
     width: auto;
-  }
-  .inner-box {
-    margin: 10px 5px;
   }
   .inner-box .box {
     width: auto;
