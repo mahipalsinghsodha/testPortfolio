@@ -903,10 +903,13 @@ form button i {
     width: auto;
   }
 }
-@media only screen and (max-width: 486px) {
+@media only screen and (max-width: 550px) {
   .client-logos {
     grid-template-columns: auto auto;
   }
+}
+
+@media only screen and (max-width: 486px) {
   .address-box i {
     font-size: 15px;
   }
