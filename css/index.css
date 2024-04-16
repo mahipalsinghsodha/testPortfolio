@@ -78,8 +78,8 @@ button a {
 
 /* Home section csss */
 .home {
+  height: 100%;
   width: 100%;
-  height: 100vh;
   background-image: linear-gradient(
     to right,
     rgba(250, 246, 246, 0),
@@ -91,13 +91,16 @@ button a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .left-sec {
   width: 50%;
   margin-right: 10px;
+  margin: 40px 10px;
 }
 .text-sec h1 {
-  font-size: 45px;
+  font-size: 30px;
 }
 .text-sec p {
   font-size: 18px;
@@ -112,14 +115,22 @@ button a {
   justify-content: flex-end;
   align-items: center;
   width: 50%;
+  height: 450px;
+  margin: 40px 0px;
 }
 .img-sec {
+  width: 450px;
+  height: 450px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 24px;
+  border-radius: 10px;
 }
 .img-sec img {
-  width: auto;
+  width: 100%;
+  height: 100%;
+}
+.img-sec .img1 {
+  object-fit: cover;
 }
 .inner-box {
   margin-top: 100px;
@@ -155,8 +166,6 @@ button a {
   );
 }
 .about-inner {
-  position: relative;
-  top: 80px;
   padding: 50px 10px;
   height: auto;
   display: flex;
@@ -176,12 +185,15 @@ button a {
   align-items: center;
   background-color: #f0f1f3;
   position: relative;
-  width: 320px;
-  height: 405px;
-  padding: 40px;
+  width: 400px;
+  height: 450px;
 }
 .profile-sec img {
-  width: fit-content;
+  width: 100%;
+  height: 100%;
+}
+.img2 {
+  object-fit: cover;
 }
 .profile-sec .social-icon {
   display: flex;
@@ -223,7 +235,7 @@ button a {
 }
 .about-right h1 {
   font-family: "Work Sans";
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 600;
   padding: 5px 20px 5px 5px;
   margin: 5px 0px;
@@ -254,26 +266,26 @@ button a {
 /* work process  */
 
 .work-process {
-  width: 100%;
   background-color: #f0f1f3;
+  height: 600px;
 }
 .work-process-inner {
   display: flex;
-  margin-top: 200px;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 100px;
+  position: relative;
+  top: 100px;
+  margin-bottom: 120px;
 }
 .work-left h1 {
-  font-size: 48px;
+  font-size: 30px;
   font-family: "Work Sans";
   color: #132238;
   margin-bottom: 30px;
 }
-.work-left div {
+/* .work-left div {
   width: 400px;
-}
+} */
 .work-left > div > p {
   font-size: 15px;
   font-family: "Work Sans";
@@ -295,9 +307,7 @@ button a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 250px;
-  height: 200px;
-  padding: 5px;
+  padding: 10px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
@@ -348,7 +358,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  margin: 40px;
 }
 .title-port {
   display: flex;
@@ -382,9 +392,7 @@ p {
   border: 1px solid #697484;
   margin: 10px;
 }
-.card-box {
-  height: 150px;
-}
+
 .card-box > img {
   width: 100%;
   height: 100%;
@@ -426,7 +434,6 @@ p {
 /* Project line  */
 .project-main {
   background-color: #132238;
-  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -438,6 +445,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 400px;
+  margin: 50px;
 }
 .project-sec h2 {
   color: white;
@@ -459,16 +467,15 @@ p {
 /* Experience section csss  */
 
 .experience-container {
-  height: 70vh;
   background-color: #f0f1f3;
 }
 .inner-experience {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px;
 }
 .text-expe {
-  width: 400px;
 }
 .text-expe h1 {
   font-size: 25px;
@@ -540,7 +547,7 @@ h1 {
   margin: 10px;
 }
 .b-card img {
-  width: 260px;
+  width: 100%;
   border-radius: 8px 8px 0px 0px;
 }
 .b-content {
@@ -550,9 +557,6 @@ h1 {
   align-items: center;
 }
 /* Client logo  */
-.client-container {
-  height: 60vh;
-}
 .inner-client {
   display: flex;
   flex-direction: column;
@@ -614,20 +618,27 @@ h1 {
   background-image: linear-gradient(rgb(252, 243, 233), rgb(251, 251, 251));
 }
 .normal-containner {
-  height: auto;
   border-radius: 10px;
   position: relative;
   top: 20px;
   height: auto;
   display: flex;
-  padding: 10px 50px;
   align-items: center;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: auto;
 }
 .normal-profile {
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.normal-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .normal-address h2 {
   margin-top: 20px;
@@ -641,7 +652,6 @@ h1 {
   align-items: center;
   border: 15px;
   padding: 10px;
-  margin-bottom: 15px;
 }
 .add-box {
   display: flex;
@@ -740,3 +750,51 @@ form button i {
   color: white;
   font-size: 15px;
 }
+
+/* media query */
+@media only screen and (max-width: 1118px) {
+  .inner-container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 971px) {
+  .navigation {
+    display: none;
+  }
+  .right-sec {
+    width: 300px;
+  }
+  .img-sec {
+    width: 300px;
+    height: 400px;
+  }
+  .work-process {
+    height: auto;
+  }
+  .work-process-inner {
+    flex-direction: column;
+  }
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+  #box2,
+  #box4 {
+    top: 0;
+  }
+  .item-box {
+    padding: 20px;
+    width: 150px;
+  }
+  .work-process-inner {
+    position: static;
+    margin: 10px;
+  }
+  .right-sec {
+    height: auto;
+    margin: 0;
+  }
+}
+
+/* @media only screen and (max-width: 980px) {
+  
+} */
