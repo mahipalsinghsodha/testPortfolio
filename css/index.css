@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+li i,
+a,
+button {
+  cursor: pointer;
+}
 /* navigation bar css */
 .container {
   display: flex;
@@ -20,7 +25,7 @@
   display: none;
 }
 .menu-btn i {
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   display: none;
 }
