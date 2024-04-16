@@ -144,7 +144,7 @@ button a {
   width: 120px;
   background-color: #edd8ff;
   margin: 2px;
-  padding: 10px;
+  padding: 2pxpx;
 }
 .box .box-title {
   font-size: 20px;
@@ -965,5 +965,20 @@ form button i {
   }
   .normal-containner {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 336px) {
+  .client-logos {
+    grid-template-columns: auto;
+  }
+  .box {
+    padding: 4px;
+  }
+  .box-title .box-title {
+    padding: 2px;
+  }
+  .box-title .sub-title {
+    padding: 2px;
   }
 }
