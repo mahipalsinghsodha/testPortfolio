@@ -89,7 +89,6 @@ button a {
 
 .home-inner {
   display: flex;
-
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
@@ -848,6 +847,15 @@ form button i {
     flex-direction: column;
     text-align: center;
   }
+  .left-sec {
+    width: 90%;
+  }
+  .right-sec {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .home-inner {
     flex-direction: column-reverse;
   }
@@ -885,5 +893,58 @@ form button i {
   }
   .normal-head1 {
     display: inline;
+  }
+  .blog-inner .heading {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 486px) {
+  .client-logos {
+    grid-template-columns: auto auto;
+  }
+  .address-box i {
+    font-size: 15px;
+  }
+  .normal-icon a {
+    font-size: 15px;
+  }
+  .card-container {
+    grid-template-columns: auto;
+  }
+  .blog-card {
+    grid-template-columns: auto;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .inpu-text {
+    width: 90%;
+    margin-right: 0px;
+  }
+  .inpu-text {
+    width: 90%;
+  }
+  #subject {
+    width: 90%;
+  }
+  .address-box {
+    width: auto;
+  }
+  .content-client {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 486px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  .item-box {
+    width: 90%;
+  }
+  .about-inner {
+    width: 90%;
+  }
+  .normal-containner {
+    width: 90%;
   }
 }
